@@ -1,0 +1,80 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <!-- <p>Lorem <span style="color: blue;"></span> ipsum dolor sit amet.</p> -->
+    
+    <h1>Contact me here </h1>
+    <fieldset>
+<legend>Your Information</legend>
+   
+
+    <form action="mailto: abhisheksinghobray143@gmail.com" enctype="text/plain" method="post">
+        <!-- <input type="color"> -->
+        <!-- <input type="calender"> -->
+        <label for="username">Username:-</label>
+        <br>
+        <!-- required rakhe pachi input dinanai parcha just like  -->
+        <input type="text" id="username" placeholder="add username" required>
+        <!-- <input type="point"> -->
+        <div>
+            <label for="email">Email:-</label><br>
+            <input type="email" id="email" name="email" placeholder="email">
+        </div>
+        <div>
+            <label for="">Email:-</label><br>
+            <input type="email" id="email" name="email" placeholder="email">
+        </div>
+        <p>
+            <h3> Select your gender</h3>
+            <input type="radio" name="gander" id="male" value="Male">
+            <label for="male">Male</label><br>
+
+            <input type="radio" name="gander" id="female" value="female">
+            <label for="female">Female</label>
+        </p>
+        <p>
+            <h3> Select your Hobbies</h3>
+            <input type="checkbox" name="hobbies" id="Dance" value="Dance">
+            <label for="Dance">Dance</label>
+            
+            <input type="checkbox" name="hobbies" id="cricket" value="cricket">
+            <label for="cricket">cricket</label>
+        </p>
+        <p>
+            <h3>Select your country</h3>
+            <select name="country" id="country">
+                <option value="nepal">Nepal</option>
+                <option value="india">India</option>
+                <option value="pakistan">Pakistan</option>
+            </select>
+        </p>
+        <p>
+            <h3>Select your fav Coffee</h3>
+
+            <select name="coffee" id="coffee">
+                <optgroup label="Strong coffee">
+                    <option value="espresso">Espresso</option>
+                    <option value="cappuccino">Cappuccino</option>
+                </optgroup>
+                <optgroup label="Light coffee">
+                    <option value="americamo">Americamo</option>
+                    <option value="latte">Latte</option>
+                </optgroup>
+            </select>
+        </p>
+        <p>
+            <textarea name="msg" placeholder="type your message" id="msg" cols="30" rows="10"></textarea>
+        </p>
+
+        <button type="submit">Submit</button>
+
+    </form>
+    </fieldset>
+
+</body>
+</html>
